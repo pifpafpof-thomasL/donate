@@ -1,7 +1,7 @@
 import React from 'react';
 import { Router, Route } from 'react-router';
 import HomePage from '../HomePage';
-import NotFound from '../NotFound';
+import NotFound from '../Notfound';
 import DonorRegistration from '../DonorRegistration';
 
 const Routes = props => (

@@ -35,7 +35,8 @@ app.use(function(req, res, next) {
   res.locals.connection = mysql.createConnection({
     host     : 'localhost',
     user     : 'root',
-    database : 'donorapp'
+    database : 'donorapp',
+    password : 'Toto31'
   });
   res.locals.connection.connect();
   next();
